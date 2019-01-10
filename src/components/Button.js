@@ -10,6 +10,7 @@ export const Button = props => (
     className={`button-wrapper ${
       isOperator(props.children) ? null : "operator"
     }`}
+    onClick={() => props.handleClick(props.children)}
   >
     {props.children}
   </div>
