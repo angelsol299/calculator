@@ -6,9 +6,9 @@
   font-weight: lighter;
   font-size: 1.4em;
   background-color: #e0e1e6;
-  color: #888;
+  color: #888888;
   flex: 1;
-  outline: 1px solid #888;
+  outline: 1px solid #888888;
 }
 
 .operator {
